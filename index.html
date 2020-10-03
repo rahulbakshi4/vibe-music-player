@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <title>Vibe</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="full-bg">
+        <video autoplay muted loop poster="img/bg.png" id="myVideo">
+            <source src="img/bg.m4v" type="video/mp4">
+          </video>
+   </div>
+    <div class="player-container">
+      <!--Song-->
+      <div class = "img-container">
+          <img src="img/1k.jpg" alt="art">
+      </div>
+      <h2 id="song-name">Song 1</h2>
+      <h3 id="artist">X</h3>
+      <audio src="music/1k.mp3" controls></audio>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>

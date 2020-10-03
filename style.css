@@ -1,4 +1,4 @@
-/* Images created by: https://unsplash.com/@pawel_czerwinski */
+
 
 html {
   box-sizing: border-box;
@@ -7,36 +7,85 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #c9ced3;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  justify-content: left;
+  align-items: left;
   font-size: 12px;
+  
+}
+.full-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
 }
 
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(75%);
+}
+@media (min-aspect-ratio: 16/9) {
+  #myVideo {
+    height: 300%;
+    top: -100%;
+  }
+}
 
-
-.img-container {
-
+@media (max-aspect-ratio: 16/9) {
+  #myVideo{
+    width: 300%;
+    left: -100%;
+  }
+}
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: opacity(70%); 
+} */
+.player-container{
+  height: 600px;
+  width: 320px;
+  background: #fff2e5;
+  opacity: 70%;
+  margin: 50px 50px;
+  border-radius: 25px;
+}
+.img-container {  
+  height: 300px;
+  width: 300px;
   position: relative;
-  top: -50px;
-  left: 50px;
+  top: 50px;
+  left: 35px;
+  
 }
-
+.img-container img{
+  height: 85%;
+  width: 85%;
+  border-radius: 25px;
+}
 
 h2 {
   font-size: 25px;
   text-align: center;
-  margin: 0;
+  margin-top: 50px;
 }
 
 h3 {
   font-size: 20px;
   text-align: center;
   font-weight: 400;
-  margin: 5px 0 0;
-}
+} */
 
 /* Progress */
 .progress-container {
