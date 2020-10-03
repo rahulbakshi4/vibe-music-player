@@ -17,11 +17,28 @@
     <div class="player-container">
       <!--Song-->
       <div class = "img-container">
+          
           <img src="img/1k.jpg" alt="art">
       </div>
-      <h2 id="song-name">Song 1</h2>
-      <h3 id="artist">X</h3>
-      <audio src="music/1k.mp3" controls></audio>
+      <h2 id="1K">Song 1</h2>
+      <h3 id="ameba.">X</h3>
+      <audio src="music/1k.mp3" ></audio>
+
+      <!--Progress-->
+      <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+              <div class="duration-wrapper">
+              <span id="cureent-time">0:00</span>
+              <span id="duration">1:07</span>
+             
+          </div>
+      </div>
+      <!--Control-->
+      <div class="player-controls">
+          <i class="fas fa-backward" id="prev" title="Previous"></i>
+          <i class="fas fa-play main-button" id="play" title="Play"></i>
+          <i class="fas fa-forward" id="next" title="Next"></i>
+      </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
