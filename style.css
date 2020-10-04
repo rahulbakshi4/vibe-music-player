@@ -26,33 +26,13 @@ body {
 
 #myVideo {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  filter: brightness(50%);
-}
-@media (min-aspect-ratio: 16/9) {
-  #myVideo {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  #myVideo{
-    width: 300%;
-    left: -100%;
-  }
-}
-/* #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  top: 50%;
+  left: 50%;
   min-width: 100%;
   min-height: 100%;
-  filter: opacity(70%); 
-} */
+  transform: translate(-50%,-50%);
+  filter: brightness(50%);
+}
 .player-container{
   height: 600px;
   width: 320px;
@@ -149,9 +129,15 @@ h3 {
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
 
+  .full-bg {
+    background: url('img/bg.png') center center / cover no-repeat;
+}
 
+#myVideo{
+    display: none;
+}
   .img-container {
-    left: 29px;
+    left: 25px;
   }
 
   h2 {
@@ -164,6 +150,6 @@ h3 {
 
   .player-controls {
     top: -10px;
-    left: 100px;
+    left: 80px;
   }
 }
