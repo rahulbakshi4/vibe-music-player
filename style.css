@@ -30,7 +30,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  filter: opacity(75%);
+  filter: brightness(50%);
 }
 @media (min-aspect-ratio: 16/9) {
   #myVideo {
@@ -60,6 +60,9 @@ body {
   opacity: 70%;
   margin: 50px 50px;
   border-radius: 25px;
+  box-shadow: 0 15px  30px 4px rgba(0, 0, 0, 0.4);
+  border: 4px solid black;
+
 }
 .img-container {  
   height: 300px;
@@ -68,11 +71,14 @@ body {
   top: 50px;
   left: 35px;
   
+  
 }
 .img-container img{
   height: 85%;
   width: 85%;
   border-radius: 25px;
+  object-fit: cover;
+  box-shadow: 0 15px  30px 4px rgba(0, 0, 0, 0.4);
 }
 
 h2 {
