@@ -22,6 +22,16 @@ const songs = [
   name: 'song-3',
   displayname: 'birds',
   artist: 'wünsche' 
+},
+{
+  name: 'song-4',
+  displayname: 'Monsters',
+  artist: 'dann.gogh' 
+},
+{
+  name: 'song-5',
+  displayname: 'Snaps',
+  artist: 'Monma' 
 }
 ] 
 
