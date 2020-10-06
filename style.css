@@ -14,6 +14,27 @@ body {
   font-size: 12px;
   
 }
+
+#nav {
+  display: inline-block;
+  position: fixed;
+  background: #313131;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  opacity: 80%;
+}
+#nav ul {
+  text-align: right;
+  margin-right: 100px;
+  list-style-type: none;
+}
+
+#nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
 .full-bg {
   position: fixed;
   top: 0;
@@ -31,14 +52,15 @@ body {
   min-width: 100%;
   min-height: 100%;
   transform: translate(-50%,-50%);
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 .player-container{
+  position: fixed;
   height: 600px;
   width: 320px;
-  background: #d1cebd;
-  opacity: 70%;
-  margin: 50px 50px;
+  background: #fcf9ea;
+  opacity: 90%;
+  margin: 80px 50px;
   border-radius: 25px;
   box-shadow: 0 15px  30px 4px rgba(0, 0, 0, 0.4);
   border: 4px solid black;
@@ -75,7 +97,7 @@ h3 {
 
 /* Progress */
 .progress-container {
-  background: #fff;
+  background: #b1adad;
   border-radius: 5px;
   cursor: pointer;
   margin: 40px 20px;
@@ -87,8 +109,7 @@ h3 {
   background: #242323;
   border-radius: 5px;
   height: 100%;
-  /* change this to show progress */
-  width: 66%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 
