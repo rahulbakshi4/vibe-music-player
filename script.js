@@ -61,7 +61,7 @@ playBtn.addEventListener('click', ()=> (isPlaying? pauseSong(): playSong()));
 function loadSong(song) {
     title.textContent = song.displayname;
     artist.textContent = song.artist;
-    music.src = `music/${song.name}.mp3`;
+    music.src = `https://firebasestorage.googleapis.com/v0/b/music-player-4089e.appspot.com/o/music%2F${song.name}.mp3?alt=media&token=935a24e1-21b0-4498-96be-96735e269887`;
     image.src = `img/${song.name}.jpg`;
 }
 
