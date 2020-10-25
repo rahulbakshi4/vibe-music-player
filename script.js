@@ -36,6 +36,11 @@ const songs = [
   name: 'song-5',
   displayname: 'Snaps',
   artist: 'Monma' 
+},
+{
+  name: 'song-6',
+  displayname: 'Why am I doing this',
+  artist: 'dann.gogh' 
 }
 ] 
 
