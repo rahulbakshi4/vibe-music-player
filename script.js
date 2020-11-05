@@ -44,7 +44,6 @@ const songs = [
 }
 ] 
 
-
 let isPlaying = false;
 
 function playSong(){  

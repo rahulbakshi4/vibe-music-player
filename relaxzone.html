@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relax Zone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="relax.css">
+</head>
+<body>
+    <div>
+        <nav id="nav">
+         <ul>
+             <div class="elements">
+               <li><a href="index.html"><button class="btn">🡨 Study Zone</button></a></li>
+           </div>
+       </ul>
+        </nav>
+    </div>
+    <div class="full-bg">
+        <video autoplay muted loop poster="assests/bg.png" id="myVideo">
+            <source src="assests/bg2.m4v" type="video/mp4">
+          </video>
+   </div>
+   <div class="player-container">
+    <!--Song-->
+    <div class = "img-container">
+        
+        <img src="" alt="art">
+    </div>
+    <h2 id="title"></h2>
+    <h3 id="artist"></h3>
+    <audio src="" ></audio>
+
+    <!--Progress-->
+    <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+            <span id="current-time">0:00</span>
+            <span id="duration">1:07</span>
+           
+        </div>
+    </div>
+    <!--Control-->
+    <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+    </div>
+  </div>
+  <script src="relax.js"></script>
+</body>
+</html>
