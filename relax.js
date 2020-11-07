@@ -20,6 +20,11 @@ const songs = [
       name: 'song-2',
       displayname: 'Dance of Life',
       artist: 'Peter B. Hellend'
+    },
+    {
+      name: 'song-3',
+      displayname: 'Celestial Forest',
+      artist: 'Kachina'
     }
     ] 
 
