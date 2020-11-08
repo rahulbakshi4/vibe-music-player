@@ -159,12 +159,15 @@ html {
   }
   footer {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     width: 100%;
     bottom: 0;
     position: fixed;
     color: #b1adad;
     font-style: italic;
+  }
+  footer a{
+    color: #fcf9ea;
   }
   @media screen and (max-width: 420px) {
 
