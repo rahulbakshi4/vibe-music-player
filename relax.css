@@ -157,4 +157,56 @@ html {
     position: relative;
     top: 3px;
   }
+  footer {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: #b1adad;
+    font-style: italic;
+  }
+  @media screen and (max-width: 420px) {
+
+    .full-bg {
+      background: url('img/bg.png') center center / cover no-repeat;
+  }
+  
+  /* #myVideo{
+      display: none;
+  } */
+    .img-container {
+      width: 250px;
+      height: 260px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 15px;
+    }
+    .player-container{
+      height: 490px;
+      width: 280px;
+      margin: 60px 40px;
+      opacity: 75%;
+    }
+    .player-controls {
+      top: -10px;
+      left: 80px;
+      width: 200px;
+    }
+    .btn{
+      font-size: 14px;
+      width: 110px;
+      height: 30px;
+      right: 0;
+      margin-right: -60px;
+    }
+    .fas{
+      font-size: 20px;
+    }
+  }
   
